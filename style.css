@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.bounce {
+  height: 333px;
+  width: 333px;
+  background-color: aqua;
+  animation: bounce 1s ease infinite;
+}
+
+/*Non so se ti aspettivi qualcosa in più riguardo a sass, nel caso vedrò di rifarlo*/
+
+/*# sourceMappingURL=style.css.map */
